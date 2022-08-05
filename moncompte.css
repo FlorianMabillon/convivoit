@@ -1,0 +1,28 @@
+  /* :root{
+    --color-green: #82CC2B;
+    --color-orange: #F18314;
+    --color-fotter-grey: #D4D4D4;
+    --color-body-blue :#EEF4FF;
+} */
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #EEF4FF;
+}
+h1 {
+    color: red
+}
+h2, h3{
+    color: #F18314;
+}
+.info{
+    color: rgb(19, 16, 16)
+}
+li{
+    color: #82CC2B
+}
+p{
+ color: rgb(19, 16, 16)
+}

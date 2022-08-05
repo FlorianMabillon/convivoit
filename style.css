@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+:root{
+    --color-green: #82CC2B;
+    --color-orange: #F18314;
+    --color-footer-grey: #D4D4D4;
+    --color-footer-border-dark: rgb(0,0,0,12%);
+    --color-body-blue :#EEF4FF;
+}
+
+*{
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: var(--color-body-blue);
+}
+
+/* header  */
+header{
+  background-color: white;
+  width: 100%;
+  height: 16em;
+  border-bottom: solid 5px var(--color-green);
+}
+
+#imgLogo{
+  width: 18em;
+  height: 18em;
+}
+
+header a{
+  text-decoration: none;
+  color: var(--color-orange);
+}
+
+#pInscrition, #pConnexion, #pRecherche{
+  padding-left: 5em;
+  transform: translateY(2em);
+
+}
+
+#imgAvatar{
+  width: 5em;
+  border: solid 5px var(--color-green);
+  border-radius: 100%;
+}
+#imgFlecheAvatar{
+  width: 2em;
+}
+
+/* body */
+#global{
+    
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/* footer */
+footer{
+  font-family: 'Poppins', sans-serif;
+  position: absolute;
+  bottom: 0;
+  height: 10em;
+  width: 100%;
+  border-top: solid 5px var(--color-footer-border-dark);
+  background-color: var(--color-footer-grey);
+}
+
+#footerP{
+  width: 50%;
+}
+
+#imgSocialMedia{
+  width: 15%;
+}
+
+/* page index */
+.image img{
+  width: 100%;
+  height: 17%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 2px var(--color-orange);
+}
+
+#formulaire {
+  margin: 2em;
+  padding: 1em;
+  background-color: white;
+  width: 90%;
+  height: 100%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#formulaire input {
+  text-align: center;
+  width: 15em;
+  background-color: #F18314;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 30px;
+  border: #EEF4FF;
+  size: 100px;
+}
+
+#formulaire button {
+  background-color: #82CC2B;
+  border: var(--color-body-blue);
+  border-radius: 10px;
+  padding-left: 5px;
+
+}
+
+#formulaire select {
+  background-color: #F18314;
+  border-radius: 10px;
+  border: var(--color-body-blue);
+}
+
+#formulaire H2 {
+  color: var(--color-green);
+}
+
+::placeholder {
+  color: white;
+  font-size: 0.7em;
+}
+
+.convivoite {
+  color: white;
+}
+
+.trajet {
+  color: white;
+}
+
+#date,
+#time,
+#nbrPlace {
+  color: white;
+}
+
+
+/* page d'inscription et connexion */
+.titre{
+  color: #F18314; 
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+#contenu h3{
+  color: #82CC2B;
+  font-weight: bold;
+  font-size: 20px; 
+  margin-bottom: 15px;
+}
+.btnValidate, .btnDelete{
+    background-color: #82CC2B;
+    color: white;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 3%;
+    border-radius: 10px ;
+    padding: 5px;
+    border: #EEF4FF;
+}
+
+#btnConnexion{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#btnInscription{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+}
+
+#pied a{
+    color: #F18314;
+    margin-left: 410px;
+}
+
+.formulaireInscription{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.label{
+  background-color: white;
+}
+
+
+#contenu{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.formulaireInscription input{
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#copyright{
+  color: #F18314;
+}
+#droits{
+  color: #82CC2B;
+}
+
+/* map */
+
+ #map {
+    height: 100%;
+  }
+  
+  #map, #displayResults{
+    display: none;
+  }
